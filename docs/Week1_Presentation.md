@@ -6,10 +6,9 @@ autosize: true
 
 Objectives
 ========================================================
-
-- Background / Context
-- A Simple Workflow
-- Practice
+- Background / Context (~5min)
+- Demo a Simple Workflow (~10min)
+- Practice forking and updating (~35min)
 
 Project Management Challenges
 ========================================================
@@ -39,6 +38,13 @@ Important Distinctions
 
 **R $\neq$ RStudio**
 
+Important Warning
+========================================================
+
+![workflow](dropbox_git.png)
+
+Make sure that the local directories where you store your repositories are **not** in a Dropbox folder.
+
 
 A Simple Workflow
 ========================================================
@@ -58,4 +64,11 @@ A Simple Workflow
 - Save changes.
 - Stage changed files.
 - Pull remote changes.
-- Commit local changes.
+- Commit and push.
+
+OK, Now you try
+========================================================
+- **Fork** "[Week1_HelloWorld](https://github.com/UW-RSeminar-Fall2015/Week1_HelloWorld)". It will appear in your GitHub workspace.
+- Use RStudio to clone the repository to your local machine.
+- Modify it and save your changes.
+- Stage, commit and push changes.
