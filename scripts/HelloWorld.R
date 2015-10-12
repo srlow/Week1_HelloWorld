@@ -3,7 +3,7 @@
 ##Updated: 10-1-2015
 
 ####Set Up Workspace####
-##install.packages(c("dplyr","swirl","gapminder"))
+install.packages(c("dplyr","swirl","gapminder"))
 
 ##Load packages
 library(dplyr)
@@ -12,6 +12,9 @@ library(dplyr)
 gapminder <- read.csv("./data/gapminder.csv")
 
 ####Explore Data####
+
+str(gapminder)
+
 canada <- filter(gapminder,country=="Canada")
 canada <- mutate(canada,gdp=(gdpPercap*canada$pop)/1e10)
 
@@ -27,4 +30,5 @@ plot(x=canada$year,y=canada$gdp,type = "p",
      main="Canada")
 abline(model,lty=2)
 dev.off()
+
 
