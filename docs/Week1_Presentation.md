@@ -72,3 +72,9 @@ OK, Now you try
 - Use RStudio to clone the repository to your local machine.
 - Modify it and save your changes.
 - Stage, commit and push changes.
+
+Some More Resources
+========================================================
+
+- Blog post ["GitHub Primer for Researchers"](http://datapub.cdlib.org/2014/05/05/github-a-primer-for-researchers/)
+- [Example](https://github.com/cboettig) of what it looks like to do all of your work on GitHub.
