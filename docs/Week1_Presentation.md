@@ -60,10 +60,10 @@ A Simple Workflow
 ***
 
 **Ongoing Work**
+- Pull remote changes.
 - Work on your script/data.
 - Save changes.
 - Stage changed files.
-- Pull remote changes.
 - Commit and push.
 
 OK, Now you try
