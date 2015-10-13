@@ -5,7 +5,7 @@
 ####Set Up Workspace####
 
 ##Installs required packages
-#install.packages(c("dplyr"))
+install.packages(c("dplyr"))
 
 ##Load packages
 library(dplyr)
